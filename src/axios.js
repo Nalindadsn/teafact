@@ -9,5 +9,4 @@ axiosInstance.interceptors.response.use(
             (error.response && error.response.data) || 'Something went wrong!'
         )
 )
-
 export default axiosInstance
